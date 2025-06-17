@@ -71,4 +71,5 @@ test("employee", async ({ page }) => {
    await page.locator("text=PIM").click();
 
    await page.locator("text=Add Employee").click();
+   await page.locator("text=0dd Employee").click();
 });
